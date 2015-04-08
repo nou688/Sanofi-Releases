@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/me_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/maux_estomact_background_1" >
+
+    <LinearLayout
+        android:id="@+id/me_content_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/maux_estomac_layout_top_margin"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <!-- buttons on the left -->
+
+        <LinearLayout
+            android:id="@+id/left_buttons_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/bt_ic1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content"
+                android:src="@drawable/bt_s1" />
+
+            <ImageView
+                android:id="@+id/bt_ic2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/main_activity_button_top_margin"
+                android:contentDescription="@string/content"
+                android:src="@drawable/bt_s2" />
+
+            <ImageView
+                android:id="@+id/bt_ic3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/main_activity_button_top_margin"
+                android:contentDescription="@string/content"
+                android:src="@drawable/bt_s3" />
+        </LinearLayout>
+        <!-- buttons content on the left -->
+
+        <LinearLayout
+            android:id="@+id/left_buttons_content_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/maux_estomac_first_button_info_top_margin"
+                android:src="@drawable/bt1" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/img_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/maux_estomac_second_button_info_top_margin"
+                android:src="@drawable/bt2" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/img_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/maux_estomac_third_button_info_top_margin"
+                android:src="@drawable/bt3" >
+            </ImageView>
+        </LinearLayout>
+
+        <!-- buttons on the right -->
+
+        <LinearLayout
+            android:id="@+id/right_buttons_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/bt_ic4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/content"
+                android:src="@drawable/bt_s4" />
+
+            <ImageView
+                android:id="@+id/bt_ic5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/main_activity_button_top_margin"
+                android:contentDescription="@string/content"
+                android:src="@drawable/bt_s5" />
+
+            <ImageView
+                android:id="@+id/bt_ic6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/main_activity_button_top_margin"
+                android:contentDescription="@string/content"
+                android:src="@drawable/bt_s6" />
+        </LinearLayout>
+        <!-- buttons content on the right -->
+
+        <LinearLayout
+            android:id="@+id/rightt_buttons_content_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/img_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/maux_estomac_first_button_info_top_margin"
+                android:src="@drawable/bt4" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/img_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/maux_estomac_second_button_info_top_margin"
+                android:src="@drawable/bt5" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/img_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/maux_estomac_third_button_info_top_margin"
+                android:src="@drawable/bt6" >
+            </ImageView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ext_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/maux_estomac_extincteur_bottom_margin"
+        android:layout_marginRight="@dimen/maux_estomac_extincteur_right_margin"
+        android:contentDescription="@string/content"
+        android:src="@drawable/ext_img"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/sanofi_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="@dimen/maux_estomac_sanofi_bottom_margin"
+        android:layout_marginLeft="@dimen/maux_estomac_sanofo_left_margin"
+        android:contentDescription="@string/content"
+        android:src="@drawable/bt_sanofi"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/quiz_answer_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/answer" >
+
+        <CheckBox
+            android:id="@+id/quiz_answer_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/quiz_item_checkbox_margin_left"
+            android:layout_marginTop="@dimen/quiz_item_checkbox_margin_top" />
+
+        <TextView
+            android:id="@+id/quiz_answer_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="@dimen/quiz_item_text_margin_left"
+            android:layout_marginTop="@dimen/quiz_item_text_margin_top"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/quiz_answer_circle"
+        android:layout_width="@dimen/quiz_item_circle_size"
+        android:layout_height="@dimen/quiz_item_circle_size"
+        android:layout_marginLeft="@dimen/quiz_item_circle_margin_left"
+        android:layout_marginTop="@dimen/quiz_item_circle_margin_top"
+        android:src="@drawable/green_circle"
+        android:visibility="invisible" />
+
+</RelativeLayout>

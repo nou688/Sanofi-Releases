@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simple_image_activy_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <VideoView
+        android:id="@+id/video_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/bottom_buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/regles_douleureuses_buttons_bottom_margin"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/rd_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/regles_douleureuses_button_accueil_left_margin"
+            android:background="@android:color/transparent"
+            android:src="@drawable/rd_b1_r" />
+
+        <ImageButton
+            android:id="@+id/rd_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/regles_douleureuses_buttons_left_margin"
+            android:background="@android:color/transparent"
+            android:src="@drawable/rd_b2_b" />
+
+        <ImageButton
+            android:id="@+id/rd_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/regles_douleureuses_buttons_left_margin"
+            android:background="@android:color/transparent"
+            android:src="@drawable/rd_b3_b" />
+
+        <ImageButton
+            android:id="@+id/rd_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/regles_douleureuses_buttons_left_margin"
+            android:background="@android:color/transparent"
+            android:src="@drawable/rd_b4_b" />
+
+        <ImageButton
+            android:id="@+id/rd_button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/regles_douleureuses_buttons_left_margin"
+            android:background="@android:color/transparent"
+            android:src="@drawable/rd_b5_b" />
+
+        <ImageButton
+            android:id="@+id/rd_button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/regles_douleureuses_buttons_left_margin"
+            android:background="@android:color/transparent"
+            android:src="@drawable/rd_b6_b" />
+
+        <ImageButton
+            android:id="@+id/rd_button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/regles_douleureuses_buttons_left_margin"
+            android:background="@android:color/transparent"
+            android:src="@drawable/sanofi" />
+    </LinearLayout>
+
+</RelativeLayout>

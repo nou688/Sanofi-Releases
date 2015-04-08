@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.arts.sanofi.quiz.ui.QuizItemView
+        android:id="@+id/quiz_item_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.arts.sanofi.quiz.ui.QuizItemView
+        android:id="@+id/quiz_item_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/quiz_answers_margin_top" />
+
+    <com.arts.sanofi.quiz.ui.QuizItemView
+        android:id="@+id/quiz_item_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/quiz_answers_margin_top" />
+
+    <com.arts.sanofi.quiz.ui.QuizItemView
+        android:id="@+id/quiz_item_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/quiz_answers_margin_top" />
+
+</LinearLayout>

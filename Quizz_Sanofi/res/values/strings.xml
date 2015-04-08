@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quiz Sanofi</string>
+    <string name="show_answer_button_text">Vérifier votre réponse</string>
+    
+    <string name="password_dialog_title_text">Entrer le mot de passe</string>
+    <string name="password_hint">Entrer mot de passe</string>
+    <string name="password_text">arts2011</string>
+
+</resources>

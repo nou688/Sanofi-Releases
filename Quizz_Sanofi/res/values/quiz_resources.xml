@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- question 1 -->
+    <string name="quiz_q1_question">Q1 : Le diabète, C’est quoi ?</string>
+
+    <string-array name="quiz_q1_values">
+        <item>Est une maladie chronique</item>
+        <item>Est une maladie qui peux guérir </item>
+        <item>Est une maladie grave qui peut être\naujourd’hui parfaitement contrôlée</item>
+        <item>Bien connaitre sa maladie est le meilleur\ngarant du succès de la prise en charge</item>
+    </string-array>
+
+    <integer-array name="quiz_q1_answers">
+        <item>1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+    <!-- question 2 -->
+    <string name="quiz_q2_question">Q2 : Le diabète, Comment découvrir ?</string>
+
+    <string-array name="quiz_q2_values">
+        <item>Les signes sont boire et uriner\nbeaucoup </item>
+        <item>Dosage du sucre est >2 g/l à n’importe\nquel moment de la journée</item>
+        <item>Le dosage du sucre est >1.26 g/l\nquand la mesure est faite à jeun</item>
+        <item>Sa découverte peut se faire très tard à\nl’occasion d’une complication\nirréversible</item>
+    </string-array>
+
+    <integer-array name="quiz_q2_answers">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+    <!-- question 3 -->
+    <string name="quiz_q3_question">Q3 : Diabète et hygiène de vie, quelles bonnes attitudes ? </string>
+
+    <string-array name="quiz_q3_values">
+        <item>Manger équilibrée et régulier, 3 repas/jour,\npas trop caloriques</item>
+        <item>Eviter sucre, graisse, pâtisseries, boissons\ngazeuses….</item>
+        <item>Favoriser eau, légumes, viandes blanches,\nsemoule et pains complet</item>
+        <item>Faire de l’activité physique d’endurance et\nmodérée 3 fois/semaine</item>
+    </string-array>
+
+    <integer-array name="quiz_q3_answers">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+    <!-- question 4 -->
+    <string name="quiz_q4_question">Q4 : Diabète, comment prendre en charge ?</string>
+
+    <string-array name="quiz_q4_values">
+        <item>Une prise en charge efficace comprend des\nrègles hygiéno-diététique, pratiquer du sport\net un traitement médicamenteux</item>
+        <item>Les médicaments du diabète peuvent\nêtre sous forme de comprimés ou sous forme\nd’insuline injectable ou les deux ensemble.</item>
+        <item>Un diabétique équilibré présente une HbA1c &lt; \n 7%</item>
+        <item>La mesure de la glycémie au doigt par un\nglucomètre est importante pour adapter la\nprise en charge de la maladie</item>
+    </string-array>
+
+    <integer-array name="quiz_q4_answers">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+    <!-- question 5 -->
+    <string name="quiz_q5_question"> Q5 : Diabète et Hypoglycémie, c’est quoi ? Que faire ?</string>
+
+    <string-array name="quiz_q5_values">
+        <item>Une hypoglycémie, c’est-à-dire trop peu de\nsucre dans le sang, est une complication liée\nau traitement du diabète</item>
+        <item>Les signes d’alerte sont : les troubles visuels, \n un fourmillement des extrémités, un trouble\nde l’humeur, des sueurs…….</item>
+        <item>Une hypoglycémie peut être sévère et mener\nà une perte de connaissance voir même un\ncoma </item>
+        <item>Le traitement dépend de la sévérité, peut-être\n1/4 l de boisson sucré, 3 Cuillères à soupe\nde miel ou de confiture, 3-4 morceaux de sucre.</item>
+    </string-array>
+
+    <integer-array name="quiz_q5_answers">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+    <!-- question 6 -->
+    <string name="quiz_q6_question">Q6 : Diabète et injection d’insuline, quelles mesures à prendre ? </string>
+
+    <string-array name="quiz_q6_values">
+        <item>Avant injection, se laver les mains et nettoyer\nla peau du site d’injection</item>
+        <item>Les zones d’injection sont : les bras , le ventre,\nles cuisses et les fesses.</item>
+        <item>L’injection se fait en sous- cutanée et\nperpendiculairement à la peau</item>
+        <item>Il faut changer les zones et les sites\nd’injections à chaque injection</item>
+    </string-array>
+
+    <integer-array name="quiz_q6_answers">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+    <!-- question 7 -->
+    <string name="quiz_q7_question">Q7 : Diabète et situation particulière, quelles mesures à prendre ?</string>
+
+    <string-array name="quiz_q7_values">
+        <item>En cas de voyage, s’assurer que le diabète est\néquilibré, avoir des médicaments en quantité\nsuffisante et bien conservées</item>
+        <item>En cas de sport ou effort intense, réduire les\ndoses d’insuline</item>
+        <item>En cas de grossesse, il faut impérativement se\ntraiter avec insuline en adaptant les doses tout\nau long de la grossesse</item>
+        <item>En cas de jeûne de Ramadan, il faut une\nadaptation des traitements et des doses selon\nles recommandations de son médecin traitant.</item>
+    </string-array>
+
+    <integer-array name="quiz_q7_answers">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+
+    <color name="red_circle_color">#ff0000</color>
+    <color name="red_circle_stroke_color">#527755</color>
+    
+    <color name="green_circle_stroke_color">#628465</color>
+    <color name="green_circle_color">#00b050</color>
+
+</resources>

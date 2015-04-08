@@ -1,0 +1,1 @@
+This is a set of applications dedicated for 10.1 " Touch screen Display

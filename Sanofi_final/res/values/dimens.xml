@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_activity_buttons_layout_left_margin">40dp</dimen>
+    <dimen name="main_activity_buttons_layout_top_margin">71dp</dimen>
+    <dimen name="main_activity_button_top_margin">34dp</dimen>
+    
+    <dimen name="main_activity_button_sanofi_bottom_margin">10dp</dimen>
+  
+
+    <dimen name="regles_douleureuses_button_accueil_left_margin">60dp</dimen>
+    <dimen name="regles_douleureuses_buttons_left_margin">40dp</dimen>
+    <dimen name="regles_douleureuses_buttons_bottom_margin">3dp</dimen>
+
+  <dimen name="maux_estomac_layout_top_margin">150dp</dimen>
+  <dimen name="maux_estomac_extincteur_right_margin">40dp</dimen>
+  <dimen name="maux_estomac_extincteur_bottom_margin">15dp</dimen>
+  <dimen name="maux_estomac_sanofo_left_margin">105dp</dimen>
+  <dimen name="maux_estomac_sanofi_bottom_margin">48dp</dimen>
+  <dimen name="maux_estomac_first_button_info_top_margin">15dp</dimen>
+  <dimen name="maux_estomac_second_button_info_top_margin">60dp</dimen>
+  <dimen name="maux_estomac_third_button_info_top_margin">55dp</dimen>
+    
+</resources> 
